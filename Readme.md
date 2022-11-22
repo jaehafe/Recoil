@@ -2,9 +2,9 @@
 
 [Recoil 참고글2](https://taegon.kim/archives/10105)
 
-`useRecoilState()` 역할을 반으로 쪼개면
+## Recoil
 
-### Recoil
+`useRecoilState()` 역할을 반으로 쪼개면
 
 1. `useRecoilValue()` value만 필요한 컴포넌트
 2. `useSetRecoilState()` state를 변경하기만 하는 컴포넌트
