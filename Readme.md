@@ -1,14 +1,10 @@
-- `react-query`는 서버 상태를 다루는 라이브러리
-- `redux`, `mobx` 등은 클라이언트 상태를 다루는 라이브러리
-
-(https://velog.io/@yrnana/react-query가-redux같은-전역-상태관리-라이브러리를-대체할-수-있을까)
-
----
-
 [Recoil 참고글1](https://velog.io/@juno7803/Recoil-Recoil-200-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0)
+
 [Recoil 참고글2](https://taegon.kim/archives/10105)
 
 `useRecoilState()` 역할을 반으로 쪼개면
+
+### Recoil
 
 1. `useRecoilValue()` value만 필요한 컴포넌트
 2. `useSetRecoilState()` state를 변경하기만 하는 컴포넌트
